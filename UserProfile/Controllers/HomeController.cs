@@ -26,5 +26,10 @@ namespace UserProfile.Controllers
 
             return View();
         }
+
+        private string username()
+        {
+            return "test method";
+        }
     }
 }
